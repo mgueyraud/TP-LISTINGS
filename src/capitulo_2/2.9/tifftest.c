@@ -3,7 +3,7 @@
 int main (int argc, char** argv)
 {
 TIFF* tiff;
-tiff = TIFFOpen (argv[1], "r");
+tiff = TIFFOpen ("photo.tiff", "r");
 TIFFClose (tiff);
 return 0;
 }
