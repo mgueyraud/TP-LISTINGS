@@ -1,5 +1,6 @@
-
+#include <stdio.h>
 int main ()
 {
-return f ();
+    printf("Lo retornado es %d",f());
+return 0;
 }
