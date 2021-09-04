@@ -1,0 +1,4 @@
+bin
+#Son generados con makefile
+**/*.o
+**/*.out

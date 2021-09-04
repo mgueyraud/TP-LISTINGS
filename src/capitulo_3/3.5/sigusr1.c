@@ -18,6 +18,9 @@ int main ()
     sa.sa_handler = &handler;
     sigaction (SIGUSR1, &sa, NULL);
     /* Do some lengthy stuff here. */
+    for(int x = 0; x < 100; x+=1){
+        printf("%d\n",x);
+    }
     /* ... */
     printf ("SIGUSR1 was raised %d times\n", sigusr1_count);
     return 0;
