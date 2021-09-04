@@ -91,7 +91,7 @@ listing-2.9: src/capitulo_2/2.9/tifftest.c
 
 #  << CAPITULO 3 >>
 
-cap_3: listing-3.1 listing-3.2 listing-3.3
+cap_3: listing-3.1 listing-3.2 listing-3.3 listing-3.4 listing-3.5 listing-3.6 listing-3.7
 
 listing-3.1:
 	gcc -o src/capitulo_3/3.1/a.out src/capitulo_3/3.1/print-pid.c
@@ -102,6 +102,18 @@ listing-3.2:
 listing-3.3:
 	gcc -o src/capitulo_3/3.3/a.out src/capitulo_3/3.3/fork.c
 	mv src/capitulo_3/3.3/a.out bin/capitulo_3/3.3/fork
+listing-3.4:
+	gcc -o src/capitulo_3/3.4/a.out src/capitulo_3/3.4/fork-exec.c
+	mv src/capitulo_3/3.4/a.out bin/capitulo_3/3.4/fork-exec
+listing-3.5:
+	gcc -o src/capitulo_3/3.5/a.out src/capitulo_3/3.5/sigusr1.c
+	mv src/capitulo_3/3.5/a.out bin/capitulo_3/3.5/sigusr1
+listing-3.6:
+	gcc -o src/capitulo_3/3.6/a.out src/capitulo_3/3.6/zombie.c
+	mv src/capitulo_3/3.6/a.out bin/capitulo_3/3.6/zombie
+listing-3.7:
+	gcc -o src/capitulo_3/3.7/a.out src/capitulo_3/3.7/sigchld.c
+	mv src/capitulo_3/3.7/a.out bin/capitulo_3/3.7/sigchld
 
 
 
