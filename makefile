@@ -5,18 +5,7 @@ all: create_directories cap_1 cap_2 cap_3
 
 #ELIMINA TODAS LAS COMPILACIONES REALIZADAS
 clean:
-	rm -r bin/capitulo_1/1.1/*
-	rm -r bin/capitulo_1/1.2/*
-#	rm -r bin/capitulo_1/1.3/*
-	rm -r bin/capitulo_2/2.1/*
-	rm -r bin/capitulo_2/2.2/*
-	rm -r bin/capitulo_2/2.3/*
-	rm -r bin/capitulo_2/2.4/*
-	rm -r bin/capitulo_2/2.5/*
-	rm -r bin/capitulo_2/2.6/*
-	rm -r bin/capitulo_2/2.7/*
-	rm -r bin/capitulo_2/2.8/*
-	rm -r bin/capitulo_2/2.9/*
+	rm -rf bin
 
 #Crea carpetas para no generar errores
 create_directories: 
